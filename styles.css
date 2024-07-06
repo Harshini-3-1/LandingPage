@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #333;
+}
+
+header h2 {
+    margin: 0;
+    color: #666;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    padding: 20px;
+}
+
+.overview, .cta, .contact-form, .benefits {
+    margin-bottom: 20px;
+}
+
+.cta button, .contact-form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+}
+
+.contact-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.benefits ul {
+    list-style: none;
+    padding: 0;
+}
+
+.benefits li {
+    margin-bottom: 5px;
+}
+
+.trust-signals {
+    display: flex;
+    align-items: center;
+}
+
+.trust-signals img {
+    margin-left: 10px;
+    height: 30px;
+}
+
+footer {
+    background: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+@media (max-width: 600px) {
+    .cta button, .contact-form button {
+        width: 100%;
+    }
+}
